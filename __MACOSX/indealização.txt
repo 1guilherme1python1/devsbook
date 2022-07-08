@@ -1,0 +1,39 @@
+Banco de dados
+- usuários
+-- id
+-- email
+-- senha
+-- name
+-- data de nascimento 
+-- cidade
+-- trabalho
+-- avatar
+-- cover(capa traseira perfil)
+-- token gera uma combinação de caracteres aleatória que formaa uma ligação com a premanencia
+do usuário na página. pegamos esse harsh armaenamos me uma session ou um cookies
+--
+
+- relação de usuários
+-- id
+-- user_from(de)
+-- user_to(para)
+
+- postagens
+-- id
+-- type(text, photo);
+-- data de criação
+-- corpo do post (body);
+-- linkCount
+
+- comentários
+-- id
+-- id_post(relacionado com um post)
+-- quem fez o comentários
+-- data do comentário
+-- corpo do comentário
+
+- likes
+-- id
+-- id_post
+-- id_user
+-- data da criação
